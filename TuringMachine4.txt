@@ -1,0 +1,11 @@
+init:P
+accepte:S
+P,a,Q,a,r
+Q,a,P,a,r
+P,c,Q,c,r
+Q,c,P,c,r
+P,b,P,b,r
+P,d,P,d,r
+Q,b,Q,b,r
+Q,d,Q,d,r
+P,_,S,_,s/
