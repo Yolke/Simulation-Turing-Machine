@@ -56,14 +56,14 @@ Le fichier de configuration doit respecter le format suivant :
    EtatInitial,LettreLue,EtatFinal,NouvelleLettre,Déplacement/
 
 Exemple (`TuringMachine1.txt`) :
-
+```sh
    init:A
    accepte:S
    B,1,A,1,r
    A,0,A,0,r
    A,1,B,1,r
    A,_,S,_,s
-
+```
 ## Vérification du Format du Fichier
 
 Pour vérifier que le fichier de configuration respecte le format requis, utilisez la fonction de vérification intégrée au programme en mode de simulation avec un fichier :
